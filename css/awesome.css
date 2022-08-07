@@ -1,14 +1,14 @@
 .awesome-block {
     margin-top: 51px;
     padding-top: 54px;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
 }
 
 .awesome-block__title::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 500px;
+    left: 42.8%;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
@@ -47,17 +47,18 @@
     left: 139px;
     width: 92px;
     height: 92px;
-    background-image: url(../img/icons/Light.svg);
+    background-image: url(../img/icons/Idea-icon.svg);
 }
 
 .keyboard-icon::before {
-    background-image: url(../img/icons/Keyboard.svg);
+    background-image: url(../img/icons/Keyboard-icon.svg);
 }
 
 .lightning-icon::before {
-    background-image: url(../img/icons/Mol.svg);
+    background-image: url(../img/icons/Lightning-icon.svg);
 }
 
 .awesome-list__item-description {
     margin-top: 46px;
+    text-align: center;
 }

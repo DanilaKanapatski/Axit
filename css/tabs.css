@@ -1,0 +1,79 @@
+.tabs-block {
+    margin-top: 98px;
+    font-family: 'Open Sans';
+}
+
+.tabs-block__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.tabs-list__button button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 10px;
+    width: 184px;
+    background-color: white;
+    white-space: normal;
+    position: relative;
+}
+
+.tabs-list__button--active button::after {
+    content: '';
+    position: absolute;
+    width: 201px;
+    height: 1px;
+    background-color: white;
+    bottom: -1px;
+    left: 0;
+}
+
+.tabs-list__button--active button {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    width: 203px;
+}
+
+.tabs-block__content {
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.content__text {
+    padding: 41px 30px 54px 100px;
+}
+
+.content__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.content__description {
+    margin-top: 68px;
+}
+
+.content__text :nth-child(3) {
+    margin-top: 21px;
+}
+
+.content__button {
+    margin-top: 27px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    width: 270px;
+    padding: 16.5px;
+}
