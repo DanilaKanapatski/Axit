@@ -21,6 +21,7 @@
     background-color: white;
     white-space: normal;
     position: relative;
+    word-break: break-word;
 }
 
 .tabs-list__button--active button::after {
@@ -76,4 +77,5 @@
     background-color: #EC7979;
     width: 270px;
     padding: 16.5px;
+    word-break: break-word;
 }
