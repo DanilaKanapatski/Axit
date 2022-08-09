@@ -11,10 +11,6 @@
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
-
-    position: relative;
-    padding-bottom: 54px;
 }
 
 .paragraph {
@@ -34,5 +30,4 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
 }

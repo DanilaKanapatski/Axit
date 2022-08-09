@@ -4,7 +4,12 @@
     font-family: 'Raleway';
 }
 
-.awesome-block__title::after {
+.awesome-block__title-wrapper{
+    position: relative;
+    padding-bottom: 54px;
+}
+
+.awesome-block__title-wrapper::after {
     content: '';
     position: absolute;
     bottom: 0;
