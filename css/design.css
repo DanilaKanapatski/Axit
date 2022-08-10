@@ -45,3 +45,14 @@
     padding: 14.5px;
     word-break: break-word;
 }
+
+.design-block__button:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.design-block__button:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: white;
+}

@@ -1,5 +1,5 @@
 .tabs-block {
-    margin-top: 98px;
+    margin-top: 99px;
     font-family: 'Open Sans';
 }
 
@@ -78,4 +78,13 @@
     width: 270px;
     padding: 16.5px;
     word-break: break-word;
+}
+
+.content__button:hover {
+    background-color: #AB4949;
+}
+
+.content__button:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }

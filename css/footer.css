@@ -1,0 +1,16 @@
+.footer-block {
+    margin-top: 50px;
+    background-color: black;
+    padding: 35px 0 27px;
+}
+
+.footer-block__icons {
+    display: flex;
+    gap: 32.8px;
+    justify-content: center;
+}
+
+.footer-block__paragraph {
+    margin-top: 27.8px;
+    color: rgba(255, 255, 255, 0.5);
+}
