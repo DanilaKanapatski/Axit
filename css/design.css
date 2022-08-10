@@ -1,0 +1,47 @@
+.design-block {
+    margin-top: 64px;
+    background: url(/img/bg.png), url(/img/Design__background.webp) no-repeat;
+    background-size: cover;
+    padding: 104px 0 50px;
+    font-family: 'Raleway';
+} 
+
+.design-block__title-wrapper {
+    padding-bottom: 54px;
+    position: relative;
+}
+
+.design-block__title-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 42.8%;
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.design-block__title {
+    color: #FFFFFF;
+}
+
+.design-block__paragraph {
+    color: #FFFFFF;
+}
+
+.design-block__button {
+    margin: 73px auto 0px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    display: block;
+    width: 370px;
+    padding: 14.5px;
+    word-break: break-word;
+}
