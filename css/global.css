@@ -5,29 +5,76 @@
 
 .title {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
+    word-break: break-word;
 }
 
-.paragraph {
+.subtitle {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    word-break: break-word;
+}
+
+.text {
     margin-top: 40px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #86878B;
+    word-break: break-word;
 }
 
-.description {
+.desc {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    word-break: break-word;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    word-break: break-word;
+}
+
+input {
+    padding-bottom: 16px;
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    width: 100%;
+    background: white;
+}
+
+label {
+    position: relative;
+}
+
+label::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 1px;
+    background-color: #BDBDBD;
 }

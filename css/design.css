@@ -1,9 +1,9 @@
 .design-block {
     margin-top: 64px;
-    background: url(/img/bg.png), url(/img/Design__background.webp) no-repeat;
+    font-family: 'Raleway';
+    background: url(/img/banner__bgcolor.webp), url(/img/Design__background.webp) 100% 100% no-repeat;
     background-size: cover;
     padding: 104px 0 50px;
-    font-family: 'Raleway';
 } 
 
 .design-block__title-wrapper {
@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 42.8%;
+    left: 42.73%;
     width: 170px;
     height: 1px;
     background-color: #FFFFFF;
@@ -25,33 +25,25 @@
     color: #FFFFFF;
 }
 
-.design-block__paragraph {
+.design-block__text {
     color: #FFFFFF;
 }
 
-.design-block__button {
+.design-block__btn {
     margin: 73px auto 0px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     display: block;
-    width: 370px;
+    width: 31.62%;
     padding: 14.5px;
-    word-break: break-word;
 }
 
-.design-block__button:hover {
+.design-block__btn:hover {
     color: #EC7979;
     border: 2px solid #EC7979;
 }
 
-.design-block__button:active {
+.design-block__btn:active {
     background: #AB4949;
     border: 2px solid #AB4949;
     color: white;

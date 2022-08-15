@@ -9,22 +9,28 @@
     align-items: flex-end;
 }
 
-.tabs-list__button button {
+.tabs-list__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 15.72%;
+}
+
+.tabs-list__btn button {
+    padding: 9.5px 10px;
+    position: relative;
+    width: 100%;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
-    padding: 10px;
-    width: 184px;
     background-color: white;
-    white-space: normal;
-    position: relative;
     word-break: break-word;
 }
 
-.tabs-list__button--active button::after {
+.tabs-list__btn--active button::after {
     content: '';
     position: absolute;
     width: 201px;
@@ -34,11 +40,15 @@
     left: 0;
 }
 
-.tabs-list__button--active button {
+.tabs-list__btn--active{
+    flex: 0 0 17.35%;
+}
+
+.tabs-list__btn--active button {
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
     border-bottom: none;
-    width: 203px;
+    width: 100%;
 }
 
 .tabs-block__content {
@@ -46,11 +56,12 @@
     border: 1px solid #C6CBCD;
 }
 
-.content__text {
-    padding: 41px 30px 54px 100px;
+.tabs-content__text {
+    padding: 41.5px 30px 53px 100px;
+    word-break: break-word;
 }
 
-.content__title {
+.tabs-content__title {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -58,33 +69,26 @@
     color: #000000;
 }
 
-.content__description {
-    margin-top: 68px;
+.tabs-content__desc {
+    margin-top: 68.5px;
 }
 
-.content__text :nth-child(3) {
+.tabs-content__text :nth-child(3) {
     margin-top: 21px;
 }
 
-.content__button {
+.tabs-content__btn {
     margin-top: 27px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background-color: #EC7979;
-    width: 270px;
     padding: 16.5px;
-    word-break: break-word;
+    width: 47.45%;
+    background-color: #EC7979;
 }
 
-.content__button:hover {
+.tabs-content__btn:hover {
     background-color: #AB4949;
 }
 
-.content__button:active {
+.tabs-content__btn:active {
     background-color: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }

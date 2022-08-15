@@ -4,13 +4,23 @@
     padding: 35px 0 27px;
 }
 
-.footer-block__icons {
+.footer-block__links {
     display: flex;
     gap: 32.8px;
     justify-content: center;
 }
 
-.footer-block__paragraph {
+.footer-block__link {
+    width: 53.2px;
+    height: 53.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-block__text {
     margin-top: 27.8px;
     color: rgba(255, 255, 255, 0.5);
 }
+

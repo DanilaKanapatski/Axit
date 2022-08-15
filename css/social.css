@@ -1,6 +1,6 @@
 .social-block {
-    background-color: #F8EFEF;
     padding: 13.5px 0 18px;
+    background: #F8EFEF;
 }
 
 .social-block__wrapper {
@@ -9,26 +9,27 @@
 }
 
 .social-block__title {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: capitalize;
     color: #333333;
+    word-break: break-word;
 }
 
 .social-block__paragraph {
     margin-top: 31.5px;
-    text-align: left;
-}
-
-.social-block__text-wrapper {
-    max-width: 470px;
+    color: #86878B;
+    word-break: break-word;
 }
 
 .social-block__links {
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: space-between;
+}
+
+.social-block__link {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

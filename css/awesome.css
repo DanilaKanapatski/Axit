@@ -4,15 +4,15 @@
 }
 
 .awesome-block__title-wrapper{
-    position: relative;
     padding-bottom: 54px;
+    position: relative;
 }
 
 .awesome-block__title-wrapper::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 42.8%;
+    left: 42.73%;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
@@ -21,48 +21,46 @@
 .awesome-block__list {
     margin-top: 110px;
     display: flex;
-    column-gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .awesome-list__item {
-    max-width: 370px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    max-width: 370px;
+    word-break: break-word;
 }
 
 .awesome-list__item-title {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
     text-align: center;
-    text-transform: capitalize;
-    padding-top: 169px;
-    position: relative;
-    min-width: 369px;
 }
 
-.awesome-list__item-title::before {
+.awesome-list__title-wrapper {
+    padding-top: 164.5px;
+    position: relative;
+    width: 100%;
+}
+
+.awesome-list__title-wrapper::before {
     content: '';
     position: absolute;
     top: 0;
-    left: 139px;
+    left: 37.56%;
     width: 92px;
     height: 92px;
-    background-image: url(../img/icons/Idea-icon.svg);
+    background-image: url(../img/icons/Idea__icon.svg);
 }
 
 .keyboard-icon::before {
-    background-image: url(../img/icons/Keyboard-icon.svg);
+    background-image: url(../img/icons/Keyboard__icon.svg);
 }
 
 .lightning-icon::before {
-    background-image: url(../img/icons/Lightning-icon.svg);
+    background-image: url(../img/icons/Lightning__icon.svg);
 }
 
-.awesome-list__item-description {
-    margin-top: 46px;
+.awesome-list__item-desc {
+    margin-top: 41.5px;
     text-align: center;
 }

@@ -1,8 +1,8 @@
 .pricing-block {
-    background: #F5F5F5;
     margin-top: 58px;
     padding: 104px 0 50px 0;
     font-family: 'Raleway';
+    background: #F5F5F5;
 }
 
 .pricing-block__title-wrapper {
@@ -14,7 +14,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 42.8%;
+    left: 42.73%;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
@@ -23,13 +23,12 @@
 .pricing-block__list {
     margin-top: 79px;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .pricing-list__item {
-   width: 370px;
+   width: 31.62%;
 }
 
 .pricing-list__item:hover {
@@ -39,42 +38,32 @@
  }
 
 .pricing-list__title {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background: #333333;
-    border: 1px solid #F5F5F5;
     padding: 12.5px;
-    word-break: break-word;
-}
-
-.pricing-list__description {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
     background: #333333;
     border: 1px solid #F5F5F5;
-    padding: 28px 12.5px;
-    word-break: break-word;
 }
 
-.pricing-list__paragraph {
-    margin-top: 0;
+.pricing-list__desc {
+    padding: 28px 12.5px;
+    font-weight: 700;
+    color: #FFFFFF;
     background: #333333;
     border: 1px solid #F5F5F5;
-    padding: 13.5px 12.5px;
 }
 
-.pricing-items__description {
+.pricing-list__text {
+    margin-top: 0;
+    padding: 13.5px 12.5px;
+    background: #333333;
+    border: 1px solid #F5F5F5;
+}
+
+.pricing-items__desc {
+    padding: 13.5px 12.5px;
     text-align: center;
     color: #86878B;
     background: #FFFFFF;
     border: 1px solid #F5F5F5;
-    padding: 13.5px 12.5px;
 }

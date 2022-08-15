@@ -1,5 +1,6 @@
 .contact-block {
     margin-top: 104px;
+    font-family: 'Open Sans';
 }
 
 .contact-block__title-wrapper {
@@ -11,83 +12,73 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 42.8%;
+    left: 42.73%;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
 }
 
+.contact-block__form {
+    margin-top: 89px;
+    width: 100%;
+}
+
 .contact-block__form-wrapper {
     display: flex;
-    gap: 30px;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .contact-block__form-text {
-    width: 571px;
-}
-
-.contact-block__form-name {
-    margin-top: 89px;
-}
-
-.contact-block__form-email {
-    margin-top: 53px;
-}
-
-.contact-block__form-password {
-    margin-top: 53px;
-}
-
-.contact-block__form-label {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    width: 50%;
 }
 
 .contact-block__form-label::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 571px;
-    height: 1px;
-    background-color: #BDBDBD;
+    width: 570px;
 }
 
-textarea {
-    margin-top: 89px;
-    font-family: 'Open Sans';
+textarea {                              
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
-    width: 569px;
-    position: relative;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.text {
+.contact-block__form-textarea {
     position: relative;
+    width: 50%;
 }
 
-.text::after {
+.contact-block__form-textarea::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 569px;
+    width: 570px;
     height: 1px;
     background-color: #BDBDBD;
+} 
+
+.contact-block__form-btn {
+    margin: 53px auto 0;
+    padding: 16.5px;
+    display: block;
+    width: 31.62%;
+    background: #EC7979;
 }
 
-.contact-block__form-button {
-    margin-top: 53px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background: #EC7979;
-    width: 370px;
-    padding: 16.5px;
+.contact-block__form-btn:hover {
+    background-color: #AB4949;
+}
+
+.contact-block__form-btn:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
