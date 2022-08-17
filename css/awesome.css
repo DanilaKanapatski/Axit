@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 370px;
+    max-width: 31.62%;
     word-break: break-word;
 }
 
@@ -62,5 +62,53 @@
 
 .awesome-list__item-desc {
     margin-top: 41.5px;
+    width: 98%;
     text-align: center;
+}
+
+@media (max-width: 1510px) {
+    .awesome-block {
+        margin-top: 96px;
+    }
+    
+    .awesome-block__title-wrapper{
+        padding-bottom: 46px;
+    }
+    
+    .awesome-block__title-wrapper::after {
+        left: 42.84%;
+        width: 142px;
+    }
+    
+    .awesome-block__list {
+        margin-top: 65.72px;
+        gap: 20px;
+    }
+    
+    .awesome-list__item {
+        max-width: 31.95%;
+    }
+       
+    .awesome-list__title-wrapper {
+        padding-top: 141.77px;
+    }
+    
+    .awesome-list__title-wrapper::before {
+        left: 37.3%;
+        width: 80.55px;
+        height: 80.55px;
+        background-image: url(../img/icons/Idea__icon2.svg);
+    }
+    
+    .keyboard-icon::before {
+        background-image: url(../img/icons/Keyboard__icon2.svg);
+    }
+    
+    .lightning-icon::before {
+        background-image: url(../img/icons/Lightning__icon2.svg);
+    }
+    
+    .awesome-list__item-desc {
+        margin-top: 37.5px;
+    }
 }

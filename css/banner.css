@@ -29,7 +29,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 170px;
+    width: 179.91px;
     height: 1px;
     background-color: #FFFFFF;
 }
@@ -89,13 +89,8 @@
 }
 
 legend {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
     text-align: center;
-    text-transform: uppercase;
     color: #333333;
-    word-break: break-word;
 }
 
 span {
@@ -131,4 +126,58 @@ span {
 .banner-block__form-btn:active {
     background-color: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+@media (max-width: 1510px) {
+    .banner-block {
+        padding: 137px 0 106px;
+    }
+    
+    .banner-block__wrapper {
+        justify-content: space-between;
+    }
+    
+    .banner-block__logo-desc {
+        max-width: 454.36px;
+    }
+
+    .banner-block__logo-img {
+        width: 115.28px;
+        height: 41.17px;
+    }
+    
+    .banner-block__logo-img {
+        margin-top: 17px;
+    }
+    
+    .banner-block__title-wrapper {
+        padding-bottom: 41.49px;
+    }
+    
+    .banner-block__title-wrapper::after {
+        width: 115.28px;
+    }
+    
+    .banner-block__title {
+        margin-top: 54.08px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .banner-block__text-wrapper {
+        gap: 31px;
+    }
+ 
+    .banner-block__btn {
+        padding: 10.5px;
+    }
+       
+    .banner-block__form {
+        padding: 32.5px 0 0;
+        max-width: 398px;
+    }
+
+    .banner-block__form-name {
+        margin-top: 77.5px;
+    }
 }

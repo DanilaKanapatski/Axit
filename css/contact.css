@@ -82,3 +82,42 @@ textarea {
     background-color: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
+
+@media (max-width: 1510px) {
+    .contact-block {
+        margin-top: 96px
+    }
+    
+    .contact-block__title-wrapper {
+        padding-bottom: 46px;
+    }
+    
+    .contact-block__title-wrapper::after {
+        left: 42.84%;
+        width: 142px;
+    }
+
+    .contact-block__title {
+        font-weight: 700;
+    }
+    
+    .contact-block__form {
+        margin-top: 72px;
+    }
+    
+    .contact-block__form-wrapper {
+        gap: 20px;
+    }
+    
+    .contact-block__form-label::after {
+        width: 486px;
+    }
+         
+    .contact-block__form-textarea::after {
+        width: 486px;
+    } 
+    
+    .contact-block__form-btn {
+        width: 32.05%;
+    }
+}

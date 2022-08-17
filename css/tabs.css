@@ -62,7 +62,6 @@
 }
 
 .tabs-content__title {
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
@@ -91,4 +90,36 @@
 .tabs-content__btn:active {
     background-color: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+@media (max-width: 1510px) {
+    .tabs-block {
+        margin-top: 50px;
+    }
+      
+    .tabs-list__btn--active button::after {
+        width: 170.12px;
+    }
+          
+    .tabs-content__text {
+        padding: 28px 26.21px 49px 84.68px;
+    }
+    
+    .tabs-content__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    
+    .tabs-content__desc {
+        margin-top: 38px;
+    }
+    
+    .tabs-content__text :nth-child(3) {
+        margin-top: 16px;
+    }
+    
+    .tabs-content__btn {
+        margin-top: 38px;
+        width: 48.01%;
+    }
 }

@@ -24,3 +24,31 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width: 1510px) {
+    .footer-block {
+        padding: 35px 0 30px;
+    }
+    
+    .footer-block__links {
+        gap: 27px;
+    }
+    
+    .footer-block__link {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .footer-block__img {
+        width: 75.6%;
+        height: 76.56%;
+    }
+
+    .footer-block__img1 {
+        width: 50%;
+        height: 80%;
+    }
+
+    .footer-block__text {
+        margin-top: 38px;
+    }
+}

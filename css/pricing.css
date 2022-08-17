@@ -67,3 +67,56 @@
     background: #FFFFFF;
     border: 1px solid #F5F5F5;
 }
+
+@media (max-width: 1510px) {
+    .pricing-block {
+        margin-top: 60px;
+        padding: 96px 0 50px 0;
+    }
+    
+    .pricing-block__title-wrapper {
+        padding-bottom: 46px;
+    }
+    
+    .pricing-block__title-wrapper::after {
+        left: 42.84%;
+        width: 142px;
+    }
+    
+    .pricing-block__list {
+        margin-top: 49.74px;
+        gap: 20px;
+    }
+    
+    .pricing-list__item {
+       width: 31.95%;
+    }
+    
+    .pricing-list__item:hover {
+        margin-top: -17.74px;
+     }
+    
+    .pricing-list__title {
+        padding: 9.1px 12.5px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    
+    .pricing-list__desc {
+        padding: 22.34px 12.5px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .pricing-list__text {
+        padding: 11px 12.5px 10.34px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .pricing-items__desc {
+        padding: 11px 12.5px 10.34px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

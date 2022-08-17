@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Кодировка страницы -->
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <!-- Отображаемое тело страницы -->
 
@@ -38,7 +39,7 @@
             <div class="container">
             <div class="banner-block__wrapper">
                     <div class="banner-block__logo-desc">
-                        <img src="img/icons/banner__logo.svg" alt="logo-Axit">
+                        <img class="banner-block__logo-img" src="img/icons/banner__logo.svg" alt="logo-Axit">
                         <div class="banner-block__text-wrapper">
                             <div class="banner-block__title-wrapper"><h1 class="banner-block__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1></div>
                             <p class="banner-block__text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -47,8 +48,8 @@
                     </div>
                      <form class="banner-block__form" action="https://echo.htmlacademy.ru/courses" method="post">
                             <fieldset class='banner-block__form-wrapper'>
-                                <legend>Try Your <span>FREE</span> Trial Today</legend>
-                                <label class="banner-block__form-label">
+                                <legend class="subtitle">Try Your <span>FREE</span> Trial Today</legend>
+                                <label>
                                     <input class="banner-block__form-name" type="text" placeholder="Name" name="Name">
                                 </label>
                                 <label>
@@ -73,13 +74,13 @@
                             Aenean euismod bibendum laoreet.</p>
                     </div>
                     <div class="social-block__links"> 
-                        <a class="social-block__link" href="https://www.facebook.com/"><img src="img/icons/facebook__icon.svg" alt="facebook" ></a>
-                        <a class="social-block__link" href="https://twitter.com/home"><img src="img/icons/twitter__icon.svg" alt="twitter" ></a>
-                        <a class="social-block__link" href="https://www.linkedin.com/feed/"><img src="img/icons/linkedin__icon.svg" alt="linkedin" ></a>
-                        <a class="social-block__link" href="https://www.pinterest.com/"><img src="img/icons/pinterest__icon.svg" alt="pinterest" ></a>
-                        <a class="social-block__link" href="https://www.instagram.com/"><img src="img/icons/instagram__icon.svg" alt="instagram" ></a>
-                        <a class="social-block__link" href="https://github.com/"><img src="img/icons/github__icon.svg" alt="github" ></a>
-                        <a class="social-block__link" href="http://www.rss.by/"><img src="img/icons/rss__icon.svg" alt="rss"></a>
+                        <a class="social-block__link" href="https://www.facebook.com/"><img class="social-block__img1" src="img/icons/facebook__icon.svg" alt="facebook" ></a>
+                        <a class="social-block__link" href="https://twitter.com/home"><img class="social-block__img" src="img/icons/twitter__icon.svg" alt="twitter" ></a>
+                        <a class="social-block__link" href="https://www.linkedin.com/feed/"><img class="social-block__img" src="img/icons/linkedin__icon.svg" alt="linkedin" ></a>
+                        <a class="social-block__link" href="https://www.pinterest.com/"><img class="social-block__img" src="img/icons/pinterest__icon.svg" alt="pinterest" ></a>
+                        <a class="social-block__link" href="https://www.instagram.com/"><img class="social-block__img" src="img/icons/instagram__icon.svg" alt="instagram" ></a>
+                        <a class="social-block__link" href="https://github.com/"><img class="social-block__img" src="img/icons/github__icon.svg" alt="github" ></a>
+                        <a class="social-block__link" href="http://www.rss.by/"><img class="social-block__img"src="img/icons/rss__icon.svg" alt="rss"></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +106,9 @@
                         </p>
                         <button class="tabs-content__btn btn">Download</button>
                     </div>
-                    <img src="/img/Tabs__img.webp" alt="Tabs__img" class="tabs-content__img" width="470px" height="499px">
+                    <picture>
+                        <source srcset="/img/Tabs__img2.webp" media="(max-width: 1510px)" width="398.21px" height="384px">
+                        <img src="/img/Tabs__img.webp" alt="Tabs__img" class="tabs-content__img" width="470px" height="499px"></picture>
                 </div>
             </section>
             <section class="awesome-block" id="awesome">
@@ -119,31 +122,19 @@
                         <div class="awesome-list__title-wrapper">
                             <h3 class="awesome-list__item-title subtitle idea-icon">Thoughtful Design</h3>
                         </div>
-                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur
-                            <br>
-                            adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br> accumsan et
-                            viverra.</p>
+                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </li>
                     <li class="awesome-list__item">
                         <div class="awesome-list__title-wrapper keyboard-icon">
                             <h3 class="awesome-list__item-title subtitle">Thoughtful Design</h3>
                         </div>
-                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur
-                            <br>
-                            adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
-                            accumsan et viverra.</p>
+                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </li>
                     <li class="awesome-list__item">
                         <div class="awesome-list__title-wrapper lightning-icon">
                             <h3 class="awesome-list__item-title subtitle">Thoughtful Design</h3>
                         </div>
-                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur
-                            <br>
-                            adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br> accumsan et
-                            viverra.</p>
+                        <p class="awesome-list__item-desc desc">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </li>
                 </ul>
             </section>
@@ -215,7 +206,10 @@
                                 quo suscipit.</p>
                         </div>
                         <div class="customers-list__item-desc">
-                            <img class="customers-list__item-image" src="img/Davis__img.webp" alt="Davis" width="70" height="70">
+                            <picture>
+                                <source srcset="img/Davis__img2.webp" media="(max-width: 1510px)" width="63" height="63"> 
+                                <img class="customers-list__item-image" src="img/Davis__img.webp" alt="Davis" width="70" height="70">
+                            </picture>
                            <div class='customers-list__item-content content'>
                                 <h3 class='content__title subtitle'>Davis Rhiel Madsen</h3>
                                 <p class="content__text desc">Manager</p>
@@ -231,7 +225,11 @@
                                 quo suscipit.</p>
                         </div>
                         <div class="customers-list__item-desc">
-                            <img class="customers-list__item-image" src="img/Jaydon__img.webp" alt="Jaydon" width="70" height="70">
+                            <picture>
+                                <source srcset="img/Jaydon__img2.webp" media="(max-width: 1510px)" width="64" height="63">
+                                <img class="customers-list__item-image" src="img/Jaydon__img.webp" alt="
+                                <source>Jaydon" width="70" height="70"></picture>
+
                            <div class='customers-list__item-content content'>
                                 <h3 class='content__title subtitle'>Davis Rhiel Madsen</h3>
                                 <p class="content__text desc">Manager</p>
@@ -247,15 +245,17 @@
                                 quo suscipit.</p>
                         </div>
                         <div class="customers-list__item-desc">
-                            <img class="customers-list__item-image" src="img/Cooper__img.webp" alt="Cooper" width="70" height="70">
+                            <picture>
+                                <source srcset="img/Cooper__img2.webp" media="(max-width: 1510px)" width="64" height="64">
+                                <img class="customers-list__item-image" src="img/Cooper__img.webp" alt="
+                                <source>Cooper" width="70" height="70"></picture>
+
                            <div class='customers-list__item-content content'>
                                 <h3 class='content__title subtitle'>Davis Rhiel Madsen</h3>
                                 <p class="content__text desc">Manager</p>
                            </div>
                         </div>
                     </li>
-                 
-                    
                 </ul>
             </section>
         </div>
@@ -293,13 +293,24 @@
     <footer class="footer-block">
         <div class="container">
             <div class="footer-block__links">
-                <a class="footer-block__link" href="https://www.facebook.com/"><img src="img/icons/facebook__icon.svg" alt="facebook" width="23.04px" height="42.12px"></a>
-                <a class="footer-block__link" href="https://twitter.com/home"><img src="img/icons/twitter__icon.svg" alt="twitter" width="43.56px" height="35.38px"></a>
-                 <a class="footer-block__link" href="https://www.linkedin.com/feed/"><img src="img/icons/linkedin__icon.svg" alt="linkedin" width="39.9px" height="39.9px"></a>
-                <a class="footer-block__link" href="https://www.pinterest.com/"><img src="img/icons/pinterest__icon.svg" alt="pinterest" width="44.33px" height="44.33px"></a>
-                <a class="footer-block__link" href="https://www.instagram.com/"><img src="img/icons/instagram__icon.svg" alt="instagram" width="39.92px" height="39.98px"></a>
-                <a class="footer-block__link" href="https://github.com/"><img src="img/icons/github__icon.svg" alt="github" width="44.22px" height="43.13px"></a>
-                <a class="footer-block__link" href="http://www.rss.by/"><img src="img/icons/rss__icon.svg" alt="rss" width="34.49px" height="34.49px"></a>
+                <a class="footer-block__link" href="https://www.facebook.com/">
+                    <img class="footer-block__img1" src="img/icons/facebook__icon.svg" alt="facebook" width="23.04px" height="42.12px">
+                </a>
+                <a class="footer-block__link" href="https://twitter.com/home">
+                    <img class="footer-block__img" src="img/icons/twitter__icon.svg" alt="twitter"width="43.56px" height="35.38px">
+                </a>
+                 <a class="footer-block__link" href="https://www.linkedin.com/feed/">
+                    <img class="footer-block__img" src="img/icons/linkedin__icon.svg" alt="linkedin" width="39.9px" height="39.9px">
+                </a>
+                <a class="footer-block__link" href="https://www.pinterest.com/">
+                    <img class="footer-block__img" src="img/icons/pinterest__icon.svg" alt="pinterest" width="44.33px" height="44.33px">
+                </a>
+                <a class="footer-block__link" href="https://www.instagram.com/">
+                    <img class="footer-block__img" src="img/icons/instagram__icon.svg" alt="instagram" width="39.92px" height="39.98px"></a>
+                <a class="footer-block__link" href="https://github.com/">
+                    <img class="footer-block__img" src="img/icons/github__icon.svg" alt="github" width="44.22px" height="43.13px"></a>
+                <a class="footer-block__link" href="http://www.rss.by/">
+                    <img class="footer-block__img" src="img/icons/rss__icon.svg" alt="rss" width="34.49px" height="34.49px"></a>
             </div>
             <p class="footer-block__text text">© 2015 Axure Themes</p>
         </div>

@@ -33,3 +33,36 @@
     justify-content: center;
     cursor: pointer;
 }
+
+@media (max-width: 1510px) {
+    .social-block {
+        padding: 12px 0 13px;
+    }
+    
+    .social-block__wrapper {
+        gap : 20px;
+    }
+    
+    .social-block__paragraph {
+        margin-top: 23px;
+    }
+    
+    .social-block__links {
+        gap: 20px;
+    }
+    
+    .social-block__link {
+        width: 64px;
+        height: 64px;
+    }
+
+    .social-block__img {
+        width: 73%;
+        height: 70%;
+    }
+
+    .social-block__img1{
+        width: 45%;
+        height: 80%;
+    }
+}

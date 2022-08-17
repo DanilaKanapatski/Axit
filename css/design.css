@@ -48,3 +48,24 @@
     border: 2px solid #AB4949;
     color: white;
 }
+
+@media (max-width: 1510px) {
+    .design-block {
+        margin-top: 57px;
+        padding: 96px 0 50px;
+    } 
+    
+    .design-block__title-wrapper {
+        padding-bottom: 46px;
+    }
+    
+    .design-block__title-wrapper::after {
+        left: 42.84%;
+        width: 142px;
+    }
+       
+    .design-block__btn {
+        margin: 32px auto 0px;
+        width: 32.05%;
+    }
+}
