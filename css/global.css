@@ -79,7 +79,7 @@ label::after {
     background-color: #BDBDBD;
 }
 
-@media (max-width: 1510px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
     .container {
         max-width: 992px;
     }
@@ -107,5 +107,36 @@ label::after {
        
     label::after {
         width: 298px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .container {
+        max-width: 288px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    } 
+
+    .text {
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+   
+    .desc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    label::after {
+        width: 288px;
     }
 }

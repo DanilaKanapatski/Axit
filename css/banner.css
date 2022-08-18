@@ -11,6 +11,10 @@
     gap: 30px;
 }
 
+.banner-block__wrapper label::after{
+    width: 240px;
+}
+
 .banner-block__logo-desc {
     max-width: 670px;
 }
@@ -179,5 +183,83 @@ span {
 
     .banner-block__form-name {
         margin-top: 77.5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .banner-block {
+        padding: 84.12px 0 50px;
+        background: url(/img/banner__bgcolor.webp), url(/img/banner__background.webp) 100% 100% no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-block__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+    }
+    
+    .banner-block__logo-desc {
+        max-width: 100%;
+    }
+    
+    .banner-block__logo-img {
+        display: none;
+    }
+    
+    .banner-block__title-wrapper {
+        padding-bottom: 43.88px;
+    }
+    
+    .banner-block__title-wrapper::after {
+        left: 26.73%;
+        width: 134px;
+    }
+    
+    .banner-block__title {
+        margin-top: 0;
+        text-align: center;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .banner-block__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+    
+    .banner-block__text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .banner-block__btn {
+        padding: 10.5px 10px;
+        max-width: 100%;
+    }
+    
+    .banner-block__form {
+        padding: 35.5px 0 0;
+        max-width: 100%;
+    }
+    
+    .banner-block__form-wrapper {
+        padding: 0 28px 0 20px;
+    }
+    
+    legend {
+        font-size: 14px;
+        line-height: 19px;
+    }
+       
+    .banner-block__form-name {
+        margin-top: 35.5px;
+    }
+
+    .banner-block__form-btn {
+        margin-top: 54px;
     }
 }

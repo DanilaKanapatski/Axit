@@ -66,3 +66,32 @@
         height: 80%;
     }
 }
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .social-block {
+        padding: 41px 0 44px;
+    }
+    
+    .social-block__wrapper {
+        display: block;
+    }
+    
+    .social-block__title {
+        text-align: center;
+    }
+    
+    .social-block__paragraph {
+        margin-top: 23px;
+        text-align: center;
+    }
+    
+    .social-block__links {
+        margin-top: 32px;
+        gap: 17px;
+    }
+    
+    .social-block__link {
+        width: 26px;
+        height: 26px;
+    }
+}
